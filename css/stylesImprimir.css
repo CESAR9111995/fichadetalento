@@ -1,0 +1,788 @@
+body{
+  margin: 0;
+  padding: 0;
+   font-family: sans-serif;
+   margin: 0;
+   padding: 0;
+   background-color: white;
+}
+
+body::-webkit-scrollbar {
+width: 10px;               
+}
+
+body::-webkit-scrollbar-track {
+background: #DDDDDD ;     
+}
+
+body::-webkit-scrollbar-thumb {
+background-color: #0D6543;    
+border-radius: 20px;       
+
+}
+
+header{
+width: 100%;
+height: 80px;
+top: 0;
+position: fixed;
+display: flex;
+background-color: #E42618;
+margin-bottom: 80px;
+z-index: 1;
+} header .logo-elektra{
+position: absolute;
+top:10px;
+left: 0px;
+width: 12%;
+} header h1{
+line-height: 50px;
+}
+
+footer{
+width: 100%;
+background-color: #F2F2F2;
+} footer .logos-UDN{
+ display: block;
+ margin: 0 auto;
+}
+
+/******************************INTERFAZ FICHA DE TALENTO BANNER********************************************/
+
+.header-interfaz-ficha{
+width: 100%;
+height: 80px;
+position: relative;
+background-color: #E42313;
+z-index: 1;
+position: fixed;
+top: 0;
+display: flex;
+} .header-interfaz-ficha .logo-elektra{
+position: absolute;
+top:10px;
+left: 0px;
+width: 12%;
+}
+
+
+.header-interfaz-ficha .logos-blancos{
+  width: 30%;
+  height: 60px;
+  margin-left: -30px;
+  position: absolute;
+  z-index: 1;
+} 
+.header-interfaz-ficha .cont-info-header{
+width: 60%;
+height: 80px;
+display: flex;
+position: absolute;
+justify-content: end;
+top: 0px;
+right: 10px;
+padding-right: 50px;
+}
+.cont-foto-perfil{
+width: auto;
+height: auto;
+justify-content: center;
+text-align: center;
+display: flex;
+flex-direction: column;
+} 
+
+.cont-foto-perfil .foto-perfil{
+width: 300px;
+height: 300px;
+border-radius: 100%;
+border-color: #DDDDDD;
+background-color: #E42313;
+border-style: solid;
+border-width: 3px;
+padding: 3px;
+margin: 0 auto;
+top: 8px;
+position: relative;
+}.cont-foto-perfil p{
+  font-size: 30px;
+ color: black;
+ margin-top: 30px;
+}
+
+.header-interfaz-ficha .cont-info-header .boton-imprimir{
+width: 15%;
+height: 50px;
+   background-color: #EF8C08;
+   border: none;
+   border-radius: 10px;
+   color: white;
+ margin-right: 10px;
+ margin-top: 15px;
+}  .header-interfaz-ficha .cont-info-header .boton-imprimir:hover{
+   cursor: pointer;
+}
+.header-interfaz-ficha .cont-info-header a{
+width: 15%;
+
+text-decoration: none;
+}
+.header-interfaz-ficha .cont-info-header a .boton-regresar{
+height: 50px;
+margin-right: 10px;
+text-align: center;
+line-height: 30px;
+background-color: white;
+border: none;
+padding: 9px;
+border-radius: 10px;
+color: #EF8C08;
+margin-top: 15px;
+}  .header-interfaz-ficha .cont-info-header .boton-regresar:hover{
+cursor: pointer;
+}
+
+.title-ficha-talento{
+margin-top: 20px;
+color: #000;
+font-size: 50px;
+text-align: center;
+}
+.contenedor-tablas{
+width: 100%;
+height: auto;
+margin: 0 auto;
+margin-bottom: 100px;
+margin-top: 10px;
+position: relative;
+display: flex;
+}
+
+.tabla-datos-personales{
+width: 40%;
+margin: 0 auto;
+position: relative;
+border-collapse:collapse;
+border-spacing: 20px 10px;
+background-color: #FFFFFF;
+margin-bottom: 100px;
+border: 1px solid #000;
+} .tabla-datos-personales h3{
+font-size: 12px;
+ margin: 0;
+}
+
+ .tabla-datos-personales td{
+border-radius: 0px;
+padding: 5px;
+color: #000;
+border: 1px solid #000;
+font-size: 8px;
+} .tabla-datos-personales th{
+padding: 10px;
+color: #000;
+border: 1px solid #000;
+font-size: 8px;
+
+}
+
+.tabla-datos-personales thead .titulo-tabla1{
+background-color: white;
+color: black;
+background-color:  #DDDDDD;
+}
+
+.tabla-datos-personales thead .titulo-tabla2{
+color: #000;
+border-radius: 0px;
+background-color:  #DDDDDD;
+}/* .tabla-datos-personales tr:nth-child(even){
+background-color: #76777A;
+} .tabla-datos-personales tr:nth-child(even) td{
+color: white;
+}*/
+
+
+/******GRAFICAS****/
+.contenedor-general{
+width: 90%;
+height: auto;
+display: flex;
+padding: 10px;
+margin-left: 80px;
+margin-top: -180px;
+padding: 0;
+}
+.contenedor-general .contenedor-grafica{
+width: 100%;
+height: auto;
+position: relative;
+align-self: center;
+margin: 0 auto;
+margin-bottom: 20px;
+} .contenedor-general .contenedor-grafica .cont-tablay-grafica{
+  width: 100%;
+  display: flex;
+}
+
+.contenedor-general .contenedor-grafica .cont-tablay-grafica .cont-barra{
+width: 25%;
+height: 250px;
+background-color: white;
+padding: 0px;
+border-radius: 10px;
+margin-left: -60px;
+}
+.contenedor-general .contenedor-grafica .cont-tablay-grafica .cont-tabla-grafica{
+margin-left: 230px;
+
+  } 
+.contenedor-general .contenedor-grafica .icono-error{
+width: 30%;
+height: 300px;
+margin: 0 auto;
+display: block;
+} 
+.contenedor-general .contenedor-grafica .texto-error{
+font-size: 50px;
+color: red;
+font-weight: bold;
+text-align: center;
+margin: 0;
+}
+
+.contenedor-general .cont-tabla-grafica .contenido .cont-evaluacion{
+width: 80%;
+height: auto;
+display: flex;
+flex-direction: column;
+} .contenedor-general .cont-tabla-grafica .contenido .cont-evaluacion .eval-semestral{
+width: 100%;
+height: auto;
+background-color: #0D6543;
+color: white;
+margin-bottom: 10px;
+font-size: 8px;
+} .contenedor-general .cont-tabla-grafica .contenido .cont-evaluacion .eval-anual{
+width: 100%;
+height: auto;
+background-color: #EF8C08;
+color: white;
+margin-bottom: 10px;
+font-size: 8px;
+}  .contenedor-general .cont-tabla-grafica .contenido .cont-evaluacion .eval-semestral h3{
+font-weight: 400;
+text-align: center;
+color: white;
+font-size: 8px;
+} .contenedor-general .cont-tabla-grafica .contenido .cont-evaluacion .eval-anual h3{
+font-weight: 400;
+text-align: center;
+color: white;
+font-size: 8px;
+}
+
+.contenedor-general .cont-tabla-grafica .contenido  .tabla-datos-grafica thead{
+color: white;
+}  .contenedor-general .cont-tabla-grafica .contenido .tabla-datos-grafica thead .title-anual{
+background-color: #0D6543;
+font-size: 8px;
+}   .contenedor-general .cont-tabla-grafica .contenido .tabla-datos-grafica thead .title-semestral{
+background-color: #EF8C08;
+font-size: 8px;
+}
+
+.contenedor-general .cont-tabla-grafica .contenido .tabla-datos-grafica tr th{
+background-color: #76777A;
+color: white;
+padding: 10px;
+font-size: 8px;
+} .contenedor-general .cont-tabla-grafica .contenido .tabla-datos-grafica tr:nth-child(even) td{
+color: white;
+font-size: 8px;
+}
+
+.contenedor-general .cont-tabla-grafica .contenido .tabla-datos-grafica tr .actual{
+color: white;
+font-weight: bold;
+background-color: #006241;
+padding: 10px;
+font-size: 8px;
+}
+
+.contenedor-general .cont-tabla-grafica .contenido .tabla-datos-grafica tr .anterior{
+color: white;
+font-weight: bold;
+background-color: #EF8C08;
+padding: 10px;
+font-size: 8px;
+}
+
+
+.contenedor-grafica .titulos-graficas1{
+width: 100%;
+margin-top: -20px;
+padding: 0;
+color: #000;
+margin-bottom: 20px;
+font-size: 16px;
+} 
+
+/********************************** Grafica comportamientos*********************************/
+.contenedor-general-comp{
+  width: 90%;
+  height:650px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  padding: 0;
+  display: block;
+}
+.contenedor-general-comp .contenedor-grafica .cont-graficas-comportamiento{
+  display: flex;
+}
+
+.contenedor-general-comp .contenedor-grafica .cont-graficas-comportamiento .cont-graf-comportamientos{
+  width: 40%;
+  height: 250px;
+ position: relative;
+} .contenedor-general-comp .contenedor-grafica .cont-graficas-comportamiento .cont-graf-comportamientos .radar3{
+ position: absolute;
+ left: -80px;
+}
+
+
+/***************************************GRAFICA CELDAS (FONDO) *************************************/
+
+
+.contenedor-general-grafica-fondo{
+  width: 90%;
+  height:auto;
+  padding: 10px;
+  margin: 0 auto;
+  margin-top: -400px;
+  padding: 0;
+  display: block;
+}
+
+.contenedor-general-grafica-fondo .contenedor-grafica .icono-error{
+  width: 30%;
+  height: 300px;
+  margin: 0 auto;
+  display: block;
+ } 
+ .contenedor-general-grafica-fondo .contenedor-grafica .texto-error{
+  font-size: 50px;
+  color: red;
+  font-weight: bold;
+text-align: center;
+margin: 0;
+ }
+
+  .contenedor-general-grafica-fondo .contenedor-grafica .cont-grafica-yformulario .cont-grafica-eindicadores{
+  display: flex;
+  flex-direction: column;
+  width: 39%;
+  height: auto;
+  margin-left: 0px;
+  margin-top:20px;
+}
+.contenedor-general-grafica-fondo .contenedor-grafica .cont-grafica-yformulario .cont-grafica-eindicadores .cont-indicadores-celdas{
+width: 100%;
+  display: flex;
+} .contenedor-general-grafica-fondo .contenedor-grafica .cont-grafica-yformulario .cont-grafica-eindicadores .cont-indicadores-celdas .cont-actual{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  }  .contenedor-general-grafica-fondo .contenedor-grafica .cont-grafica-yformulario .cont-grafica-eindicadores .cont-indicadores-celdas .cont-actual .cuadro-naranja{
+    width: 40%;
+    height: 10px;
+    background-color: #006241;
+    }  .contenedor-general-grafica-fondo .contenedor-grafica .cont-grafica-yformulario .cont-grafica-eindicadores .cont-indicadores-celdas .cont-actual p{
+     width: 50%;
+      line-height: 30px;
+      margin: 0;
+      margin-left: 10px;
+      text-align: center;
+      font-size: 8px;
+      } 
+
+      .contenedor-general-grafica-fondo .contenedor-grafica .cont-grafica-yformulario .cont-grafica-eindicadores .cont-indicadores-celdas .cont-anterior{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+        align-items: center;
+        }  .contenedor-general-grafica-fondo .contenedor-grafica .cont-grafica-yformulario .cont-grafica-eindicadores .cont-indicadores-celdas .cont-anterior .cuadro-verde{
+          width: 40%;
+          height: 10px;
+          background-color: #ED9F1B;
+          }  .contenedor-general-grafica-fondo .contenedor-grafica .cont-grafica-yformulario .cont-grafica-eindicadores .cont-indicadores-celdas .cont-anterior p{
+           width: 50%;
+            line-height: 30px;
+            margin: 0;
+            margin-left: 10px;
+            text-align: center;
+            font-size: 8px;
+            } 
+    
+ 
+
+.contenedor-general-grafica-fondo .contenedor-grafica .cont-grafica-yformulario .cont-grafica-eindicadores .contenedor-grafica-fondo{
+
+  margin: 0 auto;
+  margin-top:10px;
+  width: 100%;
+  height: 300px;
+ 
+} #grafica-fondo {
+
+  left: 1px; /* Mueve la gráfica 50px desde el borde izquierdo */
+  top: 0px; /* Mueve la gráfica 30px desde el borde superior */
+  /* Opcional: puedes usar bottom y right si lo prefieres */
+}
+
+/**********************************GRAFICA IPN COLABORADOR ************************************************/
+
+.contenedor-general-grafica-IPN{
+  width: 40%;
+  height:auto;
+ margin-top: -50px;
+ margin-left: 50px;
+  padding: 0;
+  display: block;
+
+}
+
+.contenedor-general-grafica-IPN .contenedor-grafica .contenedor-grafica-IPN{
+  width: 90%;
+  height: 280px;
+  border-radius: 10px;
+
+}
+
+/*****************************GRAFICA DE ESTRELLAS ********************************************************/
+
+.contenedor-general-grafica-estrellas{
+  width: 80%;
+  height: auto;
+  border-radius: 10px;
+ margin-top: 10px;
+ margin-left: 50px;
+
+} 
+
+.contenedor-general-grafica-estrellas .contenedor-grafica {
+  width: 100%;
+ 
+  height: 350px;
+  display: flex;
+}
+.contenedor-general-grafica-estrellas .contenedor-grafica .contenedor-grafica-estrellas{
+  padding: 10px;
+  width: 40%;
+  height: 300px;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  margin-left: -80px
+}
+
+#Grafica-line2{
+  width: 90%;
+ margin-left: 0px;
+}
+
+.contenedor-general-grafica-estrellas .contenedor-grafica .cont-prom-general{
+   width: 25%;
+   height: 300px;
+   right: 5px;
+   top: 180px;
+   margin-left: 100px;
+} .contenedor-general-grafica-estrellas .contenedor-grafica .contenedor-grafica-estrellas .cont-prom-general img{
+   width: 60%;
+   height: 70px;
+   display: block;
+   margin: 0 auto;
+} .contenedor-general-grafica-estrellas .contenedor-grafica  h2{
+  font-size: 8px;
+  margin: 0;
+  margin-top: 20px;
+  text-align: center;
+  color: #54565A;
+}
+.contenedor-general-grafica-estrellas .contenedor-grafica p{
+  font-size: 30px;
+  margin: 0;
+  margin-top: 8px;
+  text-align: center;
+  font-weight: bold;
+  color: #000;
+}
+
+.contenedor-general-grafica-estrellas .contenedor-grafica .cont-total-encuestas{
+  width: 25%;
+  height: 300px;
+  right: 0px;
+  top: 100px;
+} .contenedor-general-grafica-estrellas .contenedor-grafica .contenedor-grafica-estrellas .cont-total-encuestas img{
+  width: 60%;
+  height: 150px;
+  display: block;
+  margin: 0 auto;
+} .contenedor-general-grafica-estrellas .contenedor-grafica h2{
+ font-size: 8px;
+ margin: 0;
+ margin-top: 20px;
+ text-align: center;
+ color: #54565A;
+}
+.contenedor-general-grafica-estrellas .contenedor-grafica p{
+ font-size: 30px;
+ margin: 0;
+ margin-top: 8px;
+ text-align: center;
+ font-weight: bold;
+ color: #000;
+}
+
+/******************** Grafica ventas totales ***************************/
+.contenedor-general-ventas{
+  width: 50%;
+  height: auto;
+  display: flex;
+margin-left: 50px;
+margin-top: -20px;
+  padding: 0;
+}
+.contenedor-general-ventas .contenedor-grafica {
+  width: 100%;
+  height: auto;
+}
+ .contenedor-general-ventas .contenedor-grafica .cont-barra-ventas{
+  width: 98%;
+  height: 300px;
+  padding: 10px;
+  border-radius: 10px;
+ }
+
+ 
+ 
+/********************* PRODUCTIVIDAD CARTERA *************************************/
+ 
+
+.contenedor-general-cartera{
+  width: 90%;
+  height: auto;
+  display: flex;
+  padding: 10px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  padding: 0;
+
+}
+.cont-cartera-oculto{
+  display: none;
+}
+.contenedor-general-cartera .contenedor-grafica {
+  width: 90%;
+}
+ .contenedor-general-cartera .contenedor-grafica .cont-barra-cartera{
+  width: 60%;
+  height: 300px;
+  padding: 10px;
+  border-radius: 10px;
+
+ }
+
+ /**********************************CONTENEDOR GRAFICAS region ****************************/
+
+ 
+.contenedor-general-region{
+  width: 90%;
+  height: auto;
+  display: flex;
+  padding: 10px;
+  margin: 0 auto;
+  margin-top: -90px;
+  padding: 0;
+}
+.contenedor-general-region .contenedor-grafica {
+  width: 90%;
+}
+
+ .contenedor-general-region .contenedor-grafica .cont-barra-region{
+  width: 60%;
+  height: auto;
+  padding: 10px;
+  border-radius: 10px;
+ }  
+
+/************************************* GRÁFICAS TERRITORIO **************************************/
+
+
+.contenedor-general-territorio{
+  width: 90%;
+  height: auto;
+  display: flex;
+  padding: 10px;
+  margin: 0 auto;
+  padding: 0;
+
+}
+
+.contenedor-general-territorio .contenedor-grafica {
+  width: 100%;
+  height: auto;
+
+} 
+.contenedor-general-territorio .contenedor-grafica .contenedor-grafica{
+  width: 100%;
+  height: 530px;
+
+
+} 
+
+ .contenedor-general-territorio .contenedor-grafica .cont-barra-territorio{
+  width: 50%;
+  height: auto; 
+  padding: 10px;
+  border-radius: 10px;
+
+ }  
+
+
+ /********************** GRAFICA ACOMPAÑANDOTE ********/
+
+.contenedor-general-acompañandote{
+  width: 90%;
+  height: auto;
+  padding: 10px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  padding: 0;
+}
+
+
+.contenedor-general-acompañandote .contenedor-grafica-horizontal{
+  width: 90%;
+  height: auto;
+ align-self: center;
+ margin-top: 30px;
+ display: flex;
+} 
+
+.contenedor-general-acompañandote .contenedor-grafica-horizontal .cont-barra2{
+  width: 45%;
+  height: 280px;
+  padding: 10px;
+  border-radius: 10px;
+ }
+
+ .contenedor-grafica-horizontal .titulos-graficas4{
+  width: 100%; 
+  margin-top: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #000;
+  margin-bottom: 30px;
+  font-size: 12px;
+}
+
+ .contenedor-grafica-horizontal .titulos-graficas4 h3{
+  display: block;
+  margin: 0;
+  margin-left: 20px;
+  font-size: 20px;
+  padding: 0;
+}
+.contenedor-general-acompañandote .contenedor-grafica-horizontal .cont-avance-general{
+  width: 15%;
+  height: auto;
+  margin-left: 250px;
+}
+.contenedor-general-acompañandote .contenedor-grafica-horizontal .cont-avance-general h3{
+  font-size: 12px;
+  margin: 0;
+  margin-top: 20px;
+  text-align: center;
+  color: #000;
+}
+.contenedor-general-acompañandote .contenedor-grafica-horizontal .cont-avance-general p{
+  font-size: 20px;
+  margin: 0;
+  margin-top: 20px;
+  text-align: center;
+  font-weight: bold;
+  color: #000;
+}
+
+.contenedor-general-acompañandote .contenedor-grafica-horizontal2{
+  width: 100%;
+  height: 1080px;
+  background-image: url(../img/fondo2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ position: relative;
+ align-self: center;
+ margin: 0 auto;
+ -webkit-box-shadow: 10px 10px 6px 0px rgba(0,0,0,0.45);
+-moz-box-shadow: 10px 10px 6px 0px rgba(0,0,0,0.45);
+box-shadow: 10px 10px 6px 0px rgba(0,0,0,0.45);
+} 
+
+.contenedor-general-acompañandote .contenedor-grafica-horizontal2 .cont-barra3{
+  width: 70%;
+  height: 930px;
+  background-color: white;
+  padding: 10px;
+  border: 2px solid #76777A;
+  border-radius: 10px;
+  margin-left: 30px;
+  -webkit-box-shadow: 10px 10px 12px 0px rgba(0,0,0,0.5);
+-moz-box-shadow: 10px 10px 12px 0px rgba(0,0,0,0.5);
+box-shadow: 10px 10px 12px 0px rgba(0,0,0,0.5);
+
+ }
+
+ .contenedor-grafica-horizontal2 .titulos-graficas4{
+  width: 100%; 
+  background-color: #EF8C08;
+  margin-top: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  margin-bottom: 30px;
+}
+
+ .contenedor-grafica-horizontal2 .titulos-graficas4 h3{
+  display: block;
+  margin: 0;
+  margin-left: 20px;
+  font-size: 30px;
+  padding: 0;
+}
+.contenedor-general-acompañandote .contenedor-grafica-horizontal2 .cont-avance-general{
+  width: 25%;
+  height: auto;
+  right: 8px;
+  top: 100px;
+  background:none;
+  position: absolute;
+}
+.contenedor-general-acompañandote .contenedor-grafica-horizontal2 .cont-avance-general h3{
+  font-size: 32px;
+  margin: 0;
+  margin-top: 20px;
+  text-align: center;
+  color: #54565A;
+}
+.contenedor-general-acompañandote .contenedor-grafica-horizontal2 .cont-avance-general p{
+  font-size: 70px;
+  margin: 0;
+  margin-top: 20px;
+  text-align: center;
+  font-weight: bold;
+  color: #4EAC35;
+}

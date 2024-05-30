@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/jpg" href="img/favicon.png"/>
+    <title>Inicio</title>
+</head>
+<body>
+
+    <header>
+      <img src="img/LOGOElektrablanco.png" alt="" class="logo-elektra">
+        
+    </header>
+ <!--FORM1-->   
+<div class="buscador-oculto" id="cont-gen-buscador1">
+    <img src="img/icono-cerrar.png" alt="" class="icono-cerrar" id="icono-cerrar1">
+    <p>Un Colaborador</p>
+   <p class="leyenda">La busqueda es únicamente por <strong>número de colaborador</strong></p> 
+         <div class="cont-buscador">
+            <div class="img-lupa">
+            <img src="img/lupa.png" alt="">
+        </div>
+        <form action="" class="formulario">
+            <input type="text" placeholder="Buscar..." class="campo-buscador" id="buscador-un-colaborador">
+            <input type="button" value="Buscar" class="btn-buscar">
+            </form>
+         </div>
+         </div>
+
+          <!--FORM2-->   
+<div class="buscador-oculto" id="cont-gen-buscador2">
+    <img src="img/icono-cerrar.png" alt="" class="icono-cerrar" id="icono-cerrar2">
+    <p>Comparativo de 2 personas</p>
+         <div class="cont-buscador">
+            <div class="img-lupa">
+            <img src="img/lupa.png" alt="">
+        </div>
+        <form action="" class="formulario">
+            <input type="text" placeholder="Buscar..." class="campo-buscador">
+            <input type="button" value="Buscar" class="btn-buscar">
+            </form>
+         </div>
+         </div>
+
+          <!--FORM3-->   
+<div class="buscador-oculto" id="cont-gen-buscador3">
+    <img src="img/icono-cerrar.png" alt="" class="icono-cerrar" id="icono-cerrar3">
+    <p>Comparativo más de 2 personas</p>
+         <div class="cont-buscador">
+            <div class="img-lupa">
+            <img src="img/lupa.png" alt="">
+        </div>
+        <form action="" class="formulario">
+            <input type="text" placeholder="Buscar..." class="campo-buscador">
+            <input type="button" value="Buscar" class="btn-buscar">
+            </form>
+         </div>
+         </div>
+
+
+<div class="contenido">
+    <h1>Ficha de talento</h1>
+
+    <p>Bienvenido a la ficha de talento, en este sistema podrás consultar la ficha 
+    de talento de todos los colaboradores que forman parte de <strong>Red Grupo Elektra (Geografía)</strong>, podrás realizar
+     la comparación entre 2 o más colaboradores.Para comenzar selecciona la opción deseada:</p>
+
+ <div class="cont-gen-personajes">
+   <!--BUCADOR USUARIO1--> 
+   <div class="cont-personajes" id="cont-Personajes1" data-aos="fade-right"
+   data-aos-offset="300"
+   data-aos-easing="ease-in-sine">
+    <img src="img/dialogo.png" alt="" class="globo-oculto" id="globo1" data-aos="fade-right"
+    data-aos-offset="300"
+    data-aos-easing="ease-in-sine">
+    <div class="imagen-personajes">
+        <img src="img/personajes1.png" alt="">
+        <p>1 colaborador</p>
+    </div>
+            <input type="button" value="Ir al formulario" class="btn-formulario" id="btn-formulario1">
+    </div>
+<!--BUCADOR USUARIO2--> 
+
+<div class="cont-personajes" id="cont-Personajes2" data-aos="fade-up"
+data-aos-offset="300"
+data-aos-easing="ease-in-sine">
+    <img src="img/img-aviso.png" alt="" class="globo-oculto" id="globo2">
+<div class="imagen-personajes">
+    <img src="img/personajes2.png" alt="">
+    <p>Comparativo de 2 colaboradores</p>
+</div>
+        <input type="button" value="Ir al formulario" class="btn-formulario" id="btn-formulario2">
+</div>
+
+<!--BUCADOR USUARIO3--> 
+
+<div class="cont-personajes" id="cont-Personajes3" data-aos="fade-left"
+data-aos-offset="300"
+data-aos-easing="ease-in-sine">
+    <img src="img/img-aviso.png" alt="" class="globo-oculto" id="globo3">
+<div class="imagen-personajes">
+    <img src="img/personajes3.1.png" alt="">
+    <p>Comparativo más de 2 colaboradores</p>
+</div>
+        <input type="button" value="Ir al formulario" class="btn-formulario" id="btn-formulario3">
+     </div>
+
+</div>
+
+</div>
+
+
+
+
+
+
+<footer>
+    <img src="img/LOGOS-UDN.png" alt="" class="logos-UDN">
+    </footer>
+
+    <script src="js/gobosDialogo.js"></script>
+    <script src="js/mostrarForm.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  
+   AOS.init({duration: 1000,});
+</script>
+</body>
+</html>

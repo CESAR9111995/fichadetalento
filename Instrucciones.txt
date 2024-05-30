@@ -1,0 +1,11 @@
+Instrucciones
+
+Ideal es el verde y debe ir a 4 
+
+Naranja es el real 4 y va de acuerdo a la semana que vayamos
+
+Cambiar ideal a gris 
+
+1 - 52 siempre en 4
+
+Hacer mas grande la grafica estrella

@@ -1,0 +1,965 @@
+/* Estilos para pantallas medianas */
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+  
+
+    
+
+    
+    /******************************INTERFAZ FICHA DE TALENTO BANNER********************************************/
+   
+    .header-interfaz-ficha{
+       width: 100%;
+       height: 80px;
+       position: relative;
+       background-color: #E42313;
+       z-index: 1;
+       position: fixed;
+       top: 0;
+       display: flex;
+      } .header-interfaz-ficha .logo-elektra{
+       position: absolute;
+       top:5px;
+       left: 0px;
+       width: 200px;
+       height: 70px;
+      }
+      
+      
+      .header-interfaz-ficha .logos-blancos{
+         width: 30%;
+         height: 60px;
+         margin-left: -30px;
+         position: absolute;
+         z-index: 1;
+      } 
+      .header-interfaz-ficha .cont-info-header{
+       width: 60%;
+       height: 80px;
+       display: flex;
+       position: absolute;
+       justify-content: end;
+       top: 0px;
+       right: 10px;
+       padding-right: 50px;
+      }
+       .cont-foto-perfil{
+      width: auto;
+      height: auto;
+      justify-content: center;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      } 
+     
+      .cont-foto-perfil .foto-perfil{
+       width: 150px;
+       height: 150px;
+       border-radius: 100%;
+       border-color: #DDDDDD;
+       background-color: #E42313;
+       border-style: solid;
+      border-width: 3px;
+       padding: 3px;
+      margin: 0 auto;
+       top: 8px;
+       position: relative;
+      }.cont-foto-perfil p{
+         font-size: 30px;
+        color: black;
+      }
+     
+      
+      .header-interfaz-ficha .cont-info-header a{
+       width: 15%;
+      
+       text-decoration: none;
+      }
+      .header-interfaz-ficha .cont-info-header a .boton-regresar{
+       height: 50px;
+       margin-left: -80px;
+       text-align: center;
+       line-height: 30px;
+       background-color: white;
+       border: none;
+       padding: 9px;
+       border-radius: 10px;
+       color: #EF8C08;
+       margin-top: 15px;
+     }  .header-interfaz-ficha .cont-info-header .boton-regresar:hover{
+       cursor: pointer;
+     }
+     
+     .title-ficha-talento{
+       margin-top: 120px;
+       color: #54565A;
+       margin-bottom: 20px;
+       font-size: 35px;
+     }
+     .contenedor-tablas{
+       width: 90%;
+       height: auto;
+       margin: 0 auto;
+       margin-bottom: 100px;
+       margin-top: 50px;
+       position: relative;
+       
+      }
+     
+     .tabla-datos-personales{
+       width: 100%;
+       margin: 0 auto;
+       position: relative;
+       /*border-collapse:collapse;*/
+       border-spacing: 10px 10px;
+       background-color: #FFFFFF;
+       margin-bottom: 100px;
+       -webkit-box-shadow: 10px 11px 8px -1px rgba(0,0,0,0.3);
+       -moz-box-shadow: 10px 11px 8px -1px rgba(0,0,0,0.3);
+       box-shadow: 10px 11px 8px -1px rgba(0,0,0,0.3);
+     } .tabla-datos-personales h3{
+       font-size: 30px;
+        margin: 0;
+     }
+     
+     .tabla-datos-personales td{
+       margin: 0 auto;
+       color: #54565A;
+     } .tabla-datos-personales td{
+       border-radius: 10px;
+       padding: 10px;
+       background-color:  #DDDDDD;
+       color: #54565A;
+       font-size: 10px;
+     } .tabla-datos-personales th{
+       padding: 20px;
+       background-color:#0D6543;
+       color: white;
+       border-radius: 15px 15px 15px 15px;
+     }
+     
+     .tabla-datos-personales thead .titulo-tabla1{
+       background-color: #4EAC35;
+       color: white;
+       border-bottom: solid 5px #54565A;
+      
+     }
+     
+     .tabla-datos-personales thead .titulo-tabla2{
+       background-color: #ED9F1B ;
+       color: white;
+       border-bottom: solid 5px #54565A;
+      
+     }/* .tabla-datos-personales tr:nth-child(even){
+       background-color: #76777A;
+     } .tabla-datos-personales tr:nth-child(even) td{
+       color: white;
+     }*/
+     
+     
+      /******GRAFICAS****/
+     .contenedor-general{
+       width: 90%;
+       height: auto;
+       display: flex;
+       flex-direction: column;
+       padding: 10px;
+       margin: 0 auto;
+       margin-bottom: 20px;
+       padding: 0;
+       
+     }
+     .contenedor-general .contenedor-grafica{
+       width: 100%;
+       height: 480px;
+       background-color: #DDDDDD;
+      align-self: center;
+      margin: 0 auto;
+     } .contenedor-general .cont-tabla-grafica{
+       top: 100px;
+       right: 50px;
+       -webkit-box-shadow: 10px 10px 12px 0px rgba(0,0,0,0.5);
+       -moz-box-shadow: 10px 10px 12px 0px rgba(0,0,0,0.5);
+       box-shadow: 10px 10px 12px 0px rgba(0,0,0,0.5);
+     } 
+     
+     
+      .contenedor-general .contenedor-grafica .cont-barra{
+       width: 90%;
+       height: 300px;
+       margin: 0 auto;
+       background-color: white;
+       padding: 10px;
+       border: 2px solid #76777A;
+       border-radius: 10px;
+       -webkit-box-shadow: 10px 10px 12px 0px rgba(0,0,0,0.5);
+     -moz-box-shadow: 10px 10px 12px 0px rgba(0,0,0,0.5);
+     box-shadow: 10px 10px 12px 0px rgba(0,0,0,0.5);
+      }
+     
+    
+      
+     
+     
+   
+     .contenedor-general .cont-tabla-grafica .contenido .tabla-datos-grafica tr th{
+       background-color: #76777A;
+       color: white;
+       padding: 0px;
+     } .contenedor-general .cont-tabla-grafica .contenido .tabla-datos-grafica tr:nth-child(even) td{
+       color: white;
+     }
+     
+     .contenedor-general .cont-tabla-grafica .contenido .tabla-datos-grafica tr .actual{
+       color: white;
+       font-weight: bold;
+       background-color: #006241;
+       padding: 10px;
+     }
+     
+     .contenedor-general .cont-tabla-grafica .contenido .tabla-datos-grafica tr .anterior{
+       color: white;
+       font-weight: bold;
+       background-color: #EF8C08;
+       padding: 10px;
+       
+     }
+     
+   
+     .contenedor-grafica{
+       margin-top: 300px;
+     }
+     .contenedor-grafica .titulos-graficas1{
+       width: 100%; 
+       background-color: #0D6543;
+       margin-top: 0px;
+       padding-top: 10px;
+       padding-bottom: 10px;
+       color: white;
+       margin-bottom: 30px;
+     }  .contenedor-grafica .titulos-graficas2{
+       width: 100%; 
+       background-color: #1E4A8D;
+       margin-top: 0px;
+       padding-top: 10px;
+       padding-bottom: 10px;
+       color: white;
+       margin-bottom: 30px;
+     } .contenedor-grafica .titulos-graficas3{
+       width: 100%; 
+       background-color: #E42618;
+       margin-top: 0px;
+       padding-top: 10px;
+       padding-bottom: 10px;
+       color: white;
+       margin-bottom: 30px;
+     } .contenedor-grafica .titulos-graficas4{
+       width: 100%; 
+       background-color: #EF8C08;
+       margin-top: 0px;
+       padding-top: 10px;
+       padding-bottom: 10px;
+       color: white;
+       margin-bottom: 30px;
+     }  .contenedor-grafica .titulos-graficas5{
+       width: 100%; 
+       background-color: #FFD206;
+       margin-top: 0px;
+       padding-top: 10px;
+       padding-bottom: 10px;
+       color: white;
+       margin-bottom: 30px;
+     } .contenedor-grafica .titulos-graficas6{
+       width: 100%; 
+       background-color: #96C151;
+       margin-top: 0px;
+       padding-top: 10px;
+       padding-bottom: 10px;
+       color: white;
+       margin-bottom: 30px;
+     }  .contenedor-grafica .titulos-graficas7{
+       width: 100%; 
+       background-color: #4EAC35;
+       margin-top: 0px;
+       padding-top: 10px;
+       padding-bottom: 10px;
+       color: white;
+       margin-bottom: 30px;
+     } 
+     
+     
+     .contenedor-grafica .titulos-graficas1 h3{
+       display: block;
+       margin: 0;
+       margin-left: 20px;
+       font-size: 30px;
+       padding: 0;
+     } .contenedor-grafica .titulos-graficas2 h3{
+       display: block;
+       margin: 0;
+       margin-left: 20px;
+       font-size: 30px;
+       padding: 0;
+     } .contenedor-grafica .titulos-graficas3 h3{
+       display: block;
+       margin: 0;
+       margin-left: 20px;
+       font-size: 30px;
+       padding: 0;
+     } .contenedor-grafica .titulos-graficas4 h3{
+       display: block;
+       margin: 0;
+       margin-left: 20px;
+       font-size: 30px;
+       padding: 0;
+     } .contenedor-grafica .titulos-graficas5 h3{
+       display: block;
+       margin: 0;
+       margin-left: 20px;
+       font-size: 30px;
+       padding: 0;
+     } .contenedor-grafica .titulos-graficas6 h3{
+       display: block;
+       margin: 0;
+       margin-left: 20px;
+       font-size: 30px;
+       padding: 0;
+     } .contenedor-grafica .titulos-graficas7 h3{
+       display: block;
+       margin: 0;
+       margin-left: 20px;
+       font-size: 30px;
+       padding: 0;
+     }
+      
+     .contenedor-general-comp{
+       width: 90%;
+       height:550px;
+       padding: 10px;
+       margin: 0 auto;
+       margin-top: -200px;
+       padding: 0;
+       display: block;
+     background-image: url(../img/fondo2.jpg);
+       background-position: center center;
+       background-repeat: no-repeat;
+       background-size: cover;
+      position: relative;
+      -webkit-box-shadow: 10px 10px 6px 0px rgba(0,0,0,0.45);
+     -moz-box-shadow: 10px 10px 6px 0px rgba(0,0,0,0.45);
+     box-shadow: 10px 10px 6px 0px rgba(0,0,0,0.45);
+     }
+     .contenedor-general-comp .contenedor-grafica .cont-graficas-comportamiento{
+       width: 100%;
+       display: flex;
+     }
+     
+     .contenedor-general-comp .contenedor-grafica .cont-graficas-comportamiento .cont-graf-comportamientos{
+       width: 90%;
+       height: 350px;
+       background-color: white;
+       padding: 10px;
+       border: 2px solid #76777A;
+       border-radius: 10px;
+      margin: 0 auto;
+       -webkit-box-shadow: 10px 10px 12px 0px rgba(0,0,0,0.5);
+     -moz-box-shadow: 10px 10px 12px 0px rgba(0,0,0,0.5);
+     box-shadow: 10px 10px 12px 0px rgba(0,0,0,0.5);
+     }
+     
+     .contenedor-general-comp .contenedor-grafica .icono-error{
+       width: 30%;
+       height: 300px;
+       margin: 0 auto;
+       display: block;
+      } 
+      .contenedor-general-comp .contenedor-grafica .texto-error{
+       font-size: 50px;
+       color: red;
+       font-weight: bold;
+     text-align: center;
+     margin: 0;
+      }
+     
+     
+     
+     .contenedor-general-grafica-fondo{
+       width: 90%;
+       height:650px;
+       padding: 10px;
+       margin: 0 auto;
+       margin-top: 100px;
+       padding: 0;
+       display: flex;
+       flex-direction: column;
+       background-image: url(../img/fondo2.jpg);
+       background-position: center center;
+       background-repeat: no-repeat;
+       background-size: cover;
+      position: relative;
+      -webkit-box-shadow: 10px 10px 6px 0px rgba(0,0,0,0.45);
+     -moz-box-shadow: 10px 10px 6px 0px rgba(0,0,0,0.45);
+     box-shadow: 10px 10px 6px 0px rgba(0,0,0,0.45);
+     }
+     
+    
+     .contenedor-general-grafica-fondo .contenedor-grafica .title-graf-celda{
+       width: 100%; 
+       background-color: #E42618;
+       top: -300px;
+       padding-top: 0px;
+       padding-bottom: 0px;
+       color: white;
+       margin-bottom: 30px;
+       font-size: 25px;
+       position: relative;
+     }
+     
+     .contenedor-general-grafica-fondo .contenedor-grafica .cont-grafica-yformulario{
+       margin-top: -250px;
+      width: 100%;
+       display: flex;
+     flex-direction: column;
+     } .contenedor-general-grafica-fondo .contenedor-grafica .cont-grafica-yformulario .cont-grafica-eindicadores{
+       display: flex;
+       flex-direction: column;
+       width: 90%;
+       margin: 0 auto;
+       margin-top:-20px;
+     }  
+     .contenedor-general-grafica-fondo .contenedor-grafica .cont-grafica-yformulario .cont-grafica-eindicadores .cont-indicadores-celdas{
+     width: 100%;
+       display: flex;
+     } .contenedor-general-grafica-fondo .contenedor-grafica .cont-grafica-yformulario .cont-grafica-eindicadores .cont-indicadores-celdas .cont-actual{
+       width: 50%;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+     
+       }  .contenedor-general-grafica-fondo .contenedor-grafica .cont-grafica-yformulario .cont-grafica-eindicadores .cont-indicadores-celdas .cont-actual .cuadro-naranja{
+         width: 50%;
+         height: 30px;
+         background-color: #006241;
+         }  .contenedor-general-grafica-fondo .contenedor-grafica .cont-grafica-yformulario .cont-grafica-eindicadores .cont-indicadores-celdas .cont-actual p{
+          width: 50%;
+           line-height: 30px;
+           margin: 0;
+           margin-left: 10px;
+           text-align: center;
+           } 
+     
+           .contenedor-general-grafica-fondo .contenedor-grafica .cont-grafica-yformulario .cont-grafica-eindicadores .cont-indicadores-celdas .cont-anterior{
+             width: 50%;
+             display: flex;
+             flex-direction: column;
+             margin-left: 10px;
+             align-items: center;
+             }  .contenedor-general-grafica-fondo .contenedor-grafica .cont-grafica-yformulario .cont-grafica-eindicadores .cont-indicadores-celdas .cont-anterior .cuadro-verde{
+               width: 50%;
+               height: 30px;
+               background-color: #ED9F1B;
+               }  .contenedor-general-grafica-fondo .contenedor-grafica .cont-grafica-yformulario .cont-grafica-eindicadores .cont-indicadores-celdas .cont-anterior p{
+                width: 50%;
+                 line-height: 30px;
+                 margin: 0;
+                 margin-left: 10px;
+                 text-align: center;
+                 } 
+         
+      
+     
+     .contenedor-general-grafica-fondo .contenedor-grafica .cont-grafica-yformulario .cont-grafica-eindicadores .contenedor-grafica-fondo{
+      
+       margin: 0 auto;
+       margin-top:10px;
+       width: 100%;
+       height: 400px;
+      background-image: url(../img/9celdas2.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size:cover;
+      overflow: hidden; /* Evita que los elementos hijos se desborden del contenedor */
+       padding: 10px;
+       border: 2px solid #76777A;
+       border-radius: 10px;
+       margin-left: 0px;
+       -webkit-box-shadow: 10px 10px 12px 0px rgba(0,0,0,0.5);
+     -moz-box-shadow: 10px 10px 12px 0px rgba(0,0,0,0.5);
+     box-shadow: 10px 10px 12px 0px rgba(0,0,0,0.5);
+     padding: 0%;
+     } #grafica-fondo {
+       position: absolute;
+       left: 1px; /* Mueve la gráfica 50px desde el borde izquierdo */
+       top: 0px; /* Mueve la gráfica 30px desde el borde superior */
+       /* Opcional: puedes usar bottom y right si lo prefieres */
+     }
+     
+     .contenedor-general-grafica-fondo .contenedor-grafica .cont-grafica-yformulario form{
+       width: auto;
+       background-color: blue;
+       align-items: center;
+     }
+     .contenedor-general-grafica-fondo .contenedor-grafica .cont-grafica-yformulario form .caja-texarea{
+      width: 80%;
+   
+      border: 2px solid #76777A;
+      border-radius: 5px;
+      margin-bottom: 20px;
+      resize: none;
+     }.contenedor-general-grafica-fondo .contenedor-grafica .cont-grafica-yformulario form .caja-texarea:focus{
+     border: none;
+     outline: none;
+     border: 2px solid #4EAC35;
+      }
+      .contenedor-general-grafica-fondo .contenedor-grafica .cont-grafica-yformulario form .btn-comentario{
+       width: 30%;
+       padding: 10px;
+       color: white;
+       border-radius: 10px;
+       border: none;
+       background-color: #ED9F1B;
+      }  .contenedor-general-grafica-fondo .contenedor-grafica .cont-grafica-yformulario form .btn-comentario:hover{
+      cursor: pointer;
+      }
+       
+     
+     .contenedor-general-grafica-PDA{
+       width: 90%;
+       height:450px;
+       padding: 10px;
+       margin: 0 auto;
+       margin-bottom: 100px;
+       padding: 0;
+       background-color: #DDDDDD;
+       display: block;
+       background-image: url(../img/fondo2.jpg);
+       background-position: center center;
+       background-repeat: no-repeat;
+       background-size: cover;
+      position: relative;
+      -webkit-box-shadow: 10px 10px 6px 0px rgba(0,0,0,0.45);
+     -moz-box-shadow: 10px 10px 6px 0px rgba(0,0,0,0.45);
+     box-shadow: 10px 10px 6px 0px rgba(0,0,0,0.45);
+     } .contenedor-general-grafica-PDA .contenedor-grafica .contenedor-grafica-PDA{
+       margin: 0 auto;
+       background-color: red;
+       width: 40%;
+       border: 2px solid #76777A;
+       border-radius: 10px;
+       -webkit-box-shadow: 10px 10px 12px 0px rgba(0,0,0,0.5);
+     -moz-box-shadow: 10px 10px 12px 0px rgba(0,0,0,0.5);
+     box-shadow: 10px 10px 12px 0px rgba(0,0,0,0.5);
+     }
+     
+     .contenedor-general-grafica-PDA .contenedor-grafica .contenedor-grafica-PDA img{
+       display: block;
+       margin: 0 auto;
+        width: 100%;
+     }
+   
+   
+   
+     .contenedor-general-grafica-IPN{
+       width: 90%;
+       height:450px;
+       padding: 10px;
+       margin: 0 auto;
+       margin-top: -200px;
+       padding: 0;
+       background-color: red;
+       display: block;
+       background-image: url(../img/fondo2.jpg);
+       background-position: center center;
+       background-repeat: no-repeat;
+       background-size: cover;
+      position: relative;
+      -webkit-box-shadow: 10px 10px 6px 0px rgba(0,0,0,0.45);
+     -moz-box-shadow: 10px 10px 6px 0px rgba(0,0,0,0.45);
+     box-shadow: 10px 10px 6px 0px rgba(0,0,0,0.45);
+     }
+     
+     .contenedor-general-grafica-IPN .contenedor-grafica .contenedor-grafica-IPN{
+       margin: 0 auto;
+       background-color: white;
+       width: 80%;
+       height: 300px;
+       border: 2px solid #76777A;
+       border-radius: 10px;
+       display: flex;
+       flex-direction: column;
+       -webkit-box-shadow: 10px 10px 12px 0px rgba(0,0,0,0.5);
+     -moz-box-shadow: 10px 10px 12px 0px rgba(0,0,0,0.5);
+     box-shadow: 10px 10px 12px 0px rgba(0,0,0,0.5);
+     }
+     
+     .contenedor-general-grafica-estrellas{
+       margin: 0 auto;
+       width: 85%;
+       height: 630px;
+       border-radius: 10px;
+       margin-top: -200px;
+       -webkit-box-shadow: 10px 10px 12px 0px rgba(0,0,0,0.5);
+     -moz-box-shadow: 10px 10px 12px 0px rgba(0,0,0,0.5);
+     box-shadow: 10px 10px 12px 0px rgba(0,0,0,0.5);
+     
+     } 
+     .contenedor-general-grafica-estrellas .contenedor-grafica .contenedor-grafica-estrellas .Grafica-line2{
+       width: 30%;
+       margin-top: 200px;
+       margin: 0 auto;
+     }
+     .contenedor-general-grafica-estrellas .contenedor-grafica .cont-prom-general{
+        width: 55%;
+        height: auto;
+        background:none;
+        top: -200px;
+        right: 0px;
+        position: absolute;
+     } .contenedor-general-grafica-estrellas .contenedor-grafica .contenedor-grafica-estrellas .cont-prom-general img{
+        width: 40%;
+        height: 50px;
+        margin: 0 auto;
+     } .contenedor-general-grafica-estrellas .contenedor-grafica .contenedor-grafica-estrellas .cont-prom-general h2{
+       font-size: 12px;
+       margin: 0;
+       margin-top: 20px;
+       text-align: center;
+       color: #54565A;
+     }
+     .contenedor-general-grafica-estrellas .contenedor-grafica .contenedor-grafica-estrellas .cont-prom-general p{
+       font-size: 30px;
+       margin: 0;
+       margin-top: 20px;
+       text-align: center;
+       font-weight: bold;
+       color: #4EAC35;
+     }
+     
+     .contenedor-general-grafica-estrellas .contenedor-grafica .cont-total-encuestas{
+       width: 85%;
+       height: auto;
+       top: -200px;
+       left: -70px;
+       background:none;
+      position: absolute;
+     } .contenedor-general-grafica-estrellas .contenedor-grafica .contenedor-grafica-estrellas .cont-total-encuestas img{
+       width: 30%;
+       height: 75px;
+       display: block;
+       margin: 0 auto;
+     } .contenedor-general-grafica-estrellas .contenedor-grafica .contenedor-grafica-estrellas .cont-total-encuestas h2{
+      font-size: 12px;
+      margin: 0;
+      margin-top: 20px;
+      text-align: center;
+      color: #54565A;
+     }
+     .contenedor-general-grafica-estrellas .contenedor-grafica .contenedor-grafica-estrellas .cont-total-encuestas p{
+      font-size: 30px;
+      margin: 0;
+      margin-top: 20px;
+      text-align: center;
+      font-weight: bold;
+      color: #4EAC35;
+     }
+     
+     .contenedor-general-grafica-estrellas .contenedor-grafica .contenedor-grafica-estrellas{
+       margin: 0 auto;
+       background-color: white;
+       padding: 20px;
+       width: 80%;
+       height: 300px;
+       border: 2px solid #76777A;
+       border-radius: 10px;
+       margin: 0 auto;
+       margin-top: 200px;
+       display: flex;
+       flex-direction: column;
+       -webkit-box-shadow: 10px 10px 12px 0px rgba(0,0,0,0.5);
+     -moz-box-shadow: 10px 10px 12px 0px rgba(0,0,0,0.5);
+     box-shadow: 10px 10px 12px 0px rgba(0,0,0,0.5);
+     }
+     
+     
+     
+     #contenedor-general-ventas{
+       width: 90%;
+       height: auto;
+       display: flex;
+       padding: 10px;
+       margin: 0 auto;
+       margin-top: 100px;
+       margin-bottom: 100px;
+       padding-bottom: 20px;
+       background-color: white;
+     
+     }
+     
+      .contenedor-general .contenedor-grafica .cont-barra-ventas{
+       width: 80%;
+       height: 350px;
+       background-color: white;
+       padding: 10px;
+       border: 2px solid #76777A;
+       border-radius: 10px;
+       margin: 0 auto;
+       -webkit-box-shadow: 10px 10px 12px 0px rgba(0,0,0,0.5);
+     -moz-box-shadow: 10px 10px 12px 0px rgba(0,0,0,0.5);
+     box-shadow: 10px 10px 12px 0px rgba(0,0,0,0.5);
+      }
+     
+     
+      
+     #cont-cartera{
+       width: 90%;
+       height: 650px;
+       display: flex;
+       padding: 10px;
+       margin: 0 auto;
+       margin-bottom: 100px;
+       padding: 0;
+     
+     }
+     .cont-cartera-oculto{
+       display: none;
+     }
+      .contenedor-general .contenedor-grafica .cont-barra-cartera{
+       width: 80%;
+       height: 380px;
+       background-color: white;
+       padding: 10px;
+       border: 2px solid #76777A;
+       border-radius: 10px;
+       margin: 0 auto;
+       -webkit-box-shadow: 10px 10px 12px 0px rgba(0,0,0,0.5);
+     -moz-box-shadow: 10px 10px 12px 0px rgba(0,0,0,0.5);
+     box-shadow: 10px 10px 12px 0px rgba(0,0,0,0.5);
+      }
+     
+      
+     #cont-region{
+       width: 90%;
+       height: 650px;
+       display: flex;
+       padding: 10px;
+       margin: 0 auto;
+       margin-bottom: 100px;
+       padding: 0;
+     
+     }
+     
+     
+      .contenedor-general .contenedor-grafica .cont-barra-region{
+       width: 80%;
+       height: 180;
+       background-color: white;
+       padding: 10px;
+       border: 2px solid #76777A;
+       border-radius: 10px;
+       margin: 0 auto;
+       -webkit-box-shadow: 10px 10px 12px 0px rgba(0,0,0,0.5);
+     -moz-box-shadow: 10px 10px 12px 0px rgba(0,0,0,0.5);
+     box-shadow: 10px 10px 12px 0px rgba(0,0,0,0.5);
+      }  
+     
+     
+      
+     #cont-territorio{
+       width: 90%;
+       height: auto;
+       display: flex;
+       padding: 10px;
+       margin: 0 auto;
+       margin-bottom: 100px;
+       padding: 0;
+     
+     }
+     .contenedor-general .contenedor-grafica{
+       width: 100%;
+       height: 550px;
+       background-image: url(../img/fondo2.jpg);
+       background-position: center center;
+       background-repeat: no-repeat;
+       background-size: cover;
+      position: relative;
+      align-self: center;
+      margin: 0 auto;
+      -webkit-box-shadow: 10px 10px 6px 0px rgba(0,0,0,0.45);
+     -moz-box-shadow: 10px 10px 6px 0px rgba(0,0,0,0.45);
+     box-shadow: 10px 10px 6px 0px rgba(0,0,0,0.45);
+     } 
+     
+      .contenedor-general .contenedor-grafica .cont-barra-territorio{
+       width: 80%;
+       height: 400px;
+       background-color: white;
+       padding: 10px;
+       border: 2px solid #76777A;
+       border-radius: 10px;
+       margin: 0 auto;
+       -webkit-box-shadow: 10px 10px 12px 0px rgba(0,0,0,0.5);
+     -moz-box-shadow: 10px 10px 12px 0px rgba(0,0,0,0.5);
+     box-shadow: 10px 10px 12px 0px rgba(0,0,0,0.5);
+      }  
+     
+     /********************** GRAFICA ACOMPAÑANDOTE ********/
+     
+     .contenedor-general{
+       width: 90%;
+       height: auto;
+       display: flex;
+       padding: 10px;
+       margin: 0 auto;
+       margin-bottom: 100px;
+       padding: 0;
+     }
+     
+     
+     .contenedor-general .contenedor-grafica-horizontal{
+       width: 100%;
+       height: 770px;
+       background-image: url(../img/fondo2.jpg);
+       background-position: center center;
+       background-repeat: no-repeat;
+       background-size: cover;
+      position: relative;
+      align-self: center;
+      margin: 0 auto;
+      -webkit-box-shadow: 10px 10px 6px 0px rgba(0,0,0,0.45);
+     -moz-box-shadow: 10px 10px 6px 0px rgba(0,0,0,0.45);
+     box-shadow: 10px 10px 6px 0px rgba(0,0,0,0.45);
+     } 
+     
+     .contenedor-general .contenedor-grafica-horizontal .cont-barra2{
+       width: 80%;
+       height: 400px;
+       background-color: white;
+       padding: 10px;
+       border: 2px solid #76777A;
+       border-radius: 10px;
+       margin-top: 250px;
+       -webkit-box-shadow: 10px 10px 12px 0px rgba(0,0,0,0.5);
+     -moz-box-shadow: 10px 10px 12px 0px rgba(0,0,0,0.5);
+     box-shadow: 10px 10px 12px 0px rgba(0,0,0,0.5);
+     
+      }
+     
+      .contenedor-grafica-horizontal .titulos-graficas4{
+       width: 100%; 
+       background-color: #EF8C08;
+       margin-top: 0px;
+       padding-top: 10px;
+       padding-bottom: 10px;
+       color: white;
+       margin-bottom: 30px;
+     }
+     
+      .contenedor-grafica-horizontal .titulos-graficas4 h3{
+       display: block;
+       margin: 0;
+       margin-left: 20px;
+       font-size: 30px;
+       padding: 0;
+     }
+     .contenedor-general .contenedor-grafica-horizontal .cont-avance-general{
+       width: 45%;
+       height: auto;
+       left: 70px;
+       top: 80px;
+       background:none;
+       position: absolute;
+     }
+     .contenedor-general .contenedor-grafica-horizontal .cont-avance-general h3{
+       font-size: 25px;
+       margin: 0;
+       margin-top: 20px;
+       text-align: center;
+       color: #54565A;
+     }
+     .contenedor-general .contenedor-grafica-horizontal .cont-avance-general p{
+       font-size: 70px;
+       margin: 0;
+       margin-top: 20px;
+       text-align: center;
+       font-weight: bold;
+       color: #4EAC35;
+     }
+     
+     .contenedor-general .contenedor-grafica-horizontal2{
+       width: 100%;
+       height: 1080px;
+       background-image: url(../img/fondo2.jpg);
+       background-position: center center;
+       background-repeat: no-repeat;
+       background-size: cover;
+      position: relative;
+      align-self: center;
+      margin: 0 auto;
+      -webkit-box-shadow: 10px 10px 6px 0px rgba(0,0,0,0.45);
+     -moz-box-shadow: 10px 10px 6px 0px rgba(0,0,0,0.45);
+     box-shadow: 10px 10px 6px 0px rgba(0,0,0,0.45);
+     } 
+     
+      .contenedor-general .contenedor-grafica-horizontal2 .cont-barra3{
+       width: 70%;
+       height: 930px;
+       background-color: white;
+       padding: 10px;
+       border: 2px solid #76777A;
+       border-radius: 10px;
+       margin-left: 30px;
+       -webkit-box-shadow: 10px 10px 12px 0px rgba(0,0,0,0.5);
+     -moz-box-shadow: 10px 10px 12px 0px rgba(0,0,0,0.5);
+     box-shadow: 10px 10px 12px 0px rgba(0,0,0,0.5);
+     
+      }
+     
+      .contenedor-grafica-horizontal2 .titulos-graficas4{
+       width: 100%; 
+       background-color: #EF8C08;
+       margin-top: 0px;
+       padding-top: 10px;
+       padding-bottom: 10px;
+       color: white;
+       margin-bottom: 30px;
+     }
+     
+      .contenedor-grafica-horizontal2 .titulos-graficas4 h3{
+       display: block;
+       margin: 0;
+       margin-left: 20px;
+       font-size: 30px;
+       padding: 0;
+     }
+     .contenedor-general .contenedor-grafica-horizontal2 .cont-avance-general{
+       width: 25%;
+       height: auto;
+       right: 8px;
+       top: 100px;
+       background:none;
+       position: absolute;
+     }
+     .contenedor-general .contenedor-grafica-horizontal2 .cont-avance-general h3{
+       font-size: 32px;
+       margin: 0;
+       margin-top: 20px;
+       text-align: center;
+       color: #54565A;
+     }
+     .contenedor-general .contenedor-grafica-horizontal2 .cont-avance-general p{
+       font-size: 70px;
+       margin: 0;
+       margin-top: 20px;
+       text-align: center;
+       font-weight: bold;
+       color: #4EAC35;
+     }
+     
+   
+   
+   
+   
+   
+   
+   }
+   
+   

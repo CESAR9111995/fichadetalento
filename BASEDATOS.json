@@ -1,0 +1,29 @@
+{
+    "evaluacionActual": "Semestral 2023",
+    "evaluacionAnterior": "Anual 2022",
+    "labels": [
+        "Evaluacion de desempeño",
+        "Objetivos",
+        "Comportamientos"
+    ],
+    "valorActual": [
+        3.7,
+        3.6,
+        4
+    ],
+    "valorActualEtiquetas": [
+        "3.7 - Excelente",
+        "3.6 - Excelente",
+        "4.0 - Avanzado"
+    ],
+    "valorAnterior": [
+        4.2,
+        2.5,
+        2.8
+    ],
+    "valorAnteriorEtiquetas": [
+        "4.2 - Excelente",
+        "2.5 - Satisfactorio",
+        "2.8 - Satisfactorio"
+    ]
+}

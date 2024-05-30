@@ -1,0 +1,18 @@
+{
+    "evaluacionActual": "Semestral 2023",
+    "evaluacionAnterior": "Anual 2022",
+    "labels": ["Pasión por el cliente", 
+    "Confianza y respeto",
+     "Mejora continua", 
+     "Ejecución impecable",
+      "Trabajo en equipo"],
+
+    "valorActual2": [
+        4, 4, 4, 4, 4
+    ],
+  
+    "valorAnterior2": [
+        2.5, 2.8, 2.3, 2.7, 2.8
+    ]
+   
+}

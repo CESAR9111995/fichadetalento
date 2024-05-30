@@ -1,0 +1,17 @@
+{
+   
+    "evaluacionActual": "Semestral 2023",
+    "evaluacionAnterior": "Anual 2022",
+    "labels": [
+        "Evaluacion de desempeño",
+        "Objetivos",
+        "Comportamientos"
+    ],
+    "valorActual": [
+    { "x": 1, "y": 1 },
+    { "x": 2.5, "y": 2.5 },
+    { "x": 2, "y": 2 },
+    { "x":3, "y": 3 }
+    ]
+   
+}
