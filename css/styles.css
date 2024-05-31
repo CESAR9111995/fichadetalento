@@ -178,7 +178,7 @@ position: relative;
   margin: 0 auto;
  align-content: center;
 position: fixed; 
-background-color: whi;
+background-color: white;
 z-index: 1;
 
 } .cont-gen-buscador .icono-cerrar{
@@ -216,6 +216,7 @@ z-index: 1;
   top: 5%;
   left:10%;
   z-index: 1;
+ 
 }
   .cont-gen-buscador .cont-buscador .img-lupa{
   width: 10%;
@@ -251,10 +252,14 @@ z-index: 1;
   color: white;
   border: none;
   transition: all 0.5s;
+  padding: 18px;
+  text-decoration: none;
+  font-size: 16px;
  }  .cont-gen-buscador .cont-buscador .formulario .btn-buscar:hover{
   cursor: pointer;
-  font-size: 10px;
+  font-size: 15px;
   transition: all 0.5s;
+  padding: 15px;
  }
  
 
@@ -1446,26 +1451,14 @@ box-shadow: 10px 10px 12px 0px rgba(0,0,0,0.5);
     .buscador-oculto{
       display: none;
     }
-     .cont-gen-buscador{
-      display: flex;
-      flex-direction: column;
-      width: 100%;
-      height: 400px;
-      top: 20%;
-      right: 0;
-      left: 0;
-      bottom: 0;
-      margin: 0 auto;
-     align-content: center;
-    position: fixed; 
-    background-image: url(../img/fondo2.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    z-index: 1;
-    
-    } .cont-gen-buscador .icono-cerrar{
+
+    .cont-gen-buscador{
+      width: 80%;
+      left:-60px;
+      background-color: #54565A;
+      color: white;
+    }
+      .cont-gen-buscador .icono-cerrar{
        width: 40px;
        height: 40px;
        right: 10px;
@@ -1476,18 +1469,21 @@ box-shadow: 10px 10px 12px 0px rgba(0,0,0,0.5);
        transform: scale(0.8);
        cursor: pointer;
     }
-    
+    .cont-gen-buscador .leyenda{
+      color: white;
+      margin-bottom: 0px;
+    }
     .cont-gen-buscador p{
      text-align: center;
-     color: #54565A;
-     font-size: 30px;
+     color: white;
+     font-size: 20px;
      margin-bottom: 0;
-     margin-top: 100px;
+     margin-top: 30px;
      font-weight: bold;
      }
     
      .cont-gen-buscador .cont-buscador{
-      width: 100%;
+      width: 150%;
       display: flex;
       position: relative;
       top: 20%;
@@ -1495,39 +1491,45 @@ box-shadow: 10px 10px 12px 0px rgba(0,0,0,0.5);
       z-index: 1;
     }
       .cont-gen-buscador .cont-buscador .img-lupa{
-      width: 15%;
-      height: auto;
+      width: 30px;
+      height: 30px;
       background-color: #98989A;
+      display: none;
      }  .cont-gen-buscador .cont-buscador .img-lupa img{
       width: 100%;
       height: auto;
      }  .cont-gen-buscador .cont-buscador .formulario{
       width: 100%;
       height: 50px;
-    
+      display: flex;
+      flex-direction: column;
      }
      .cont-gen-buscador .cont-buscador .formulario .campo-buscador{
-      width: 60%;
-      height: 45px;
+      width: 55%;
+      padding: 10px;
+      margin-left: -2px;
+      margin-bottom: 20px;
       border-right: 50px;
       border: none;
       background-color: white;
-      border: 2px solid #54565A;
+      border: 2px solid #4EAC35;
       color: #54565A;
      } .cont-gen-buscador .cont-buscador .formulario .campo-buscador:focus{
-      width: 70%;
-      height: 45px;
+      width: 55%;
+      
       border: none;
       outline: none;
       border: 2px solid #4EAC35;
      }
        .cont-gen-buscador .cont-buscador .formulario .btn-buscar{
       background-color: #ED9F1B;
-      width: 20%;
-      height: 50px;
+      width: 55%;
+      padding: 10px;
+      margin-bottom: 20px;
       color: white;
       border: none;
       transition: all 0.5s;
+      text-align: center;
      }  .cont-gen-buscador .cont-buscador .formulario .btn-buscar:hover{
       cursor: pointer;
       font-size: 10px;
